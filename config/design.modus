@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration app="BACKEND" formatVersion="13" lastSavedWith="Configurator Backend" lastSavedWithVersion="3.0.0" toolsPackage="ModusToolbox 3.0.0" xmlns="http://cypress.com/xsd/cydesignfile_v4">
+    <Devices>
+        <Device mpn="XMC1404-Q064x0200">
+            <BlockConfig>
+                <Block location="ioss[0].port[0].pin[0]">
+                    <Alias value="CYBSP_GD_SPI_MOSI"/>
+                </Block>
+                <Block location="ioss[0].port[0].pin[14]">
+                    <Alias value="CYBSP_SWDIO"/>
+                </Block>
+                <Block location="ioss[0].port[0].pin[15]">
+                    <Alias value="CYBSP_SWDCK"/>
+                </Block>
+                <Block location="ioss[0].port[0].pin[1]">
+                    <Alias value="CYBSP_GD_SPI_MISO"/>
+                </Block>
+                <Block location="ioss[0].port[0].pin[3]">
+                    <Alias value="CYBSP_GD_SPI_SCLK"/>
+                </Block>
+                <Block location="ioss[0].port[0].pin[4]">
+                    <Alias value="CYBSP_GD_SPI_NSCS"/>
+                </Block>
+                <Block location="ioss[0].port[0].pin[7]">
+                    <Alias value="CYBSP_GD_EN_DRV"/>
+                </Block>
+                <Block location="ioss[0].port[1].pin[0]">
+                    <Alias value="CYBSP_PWMWH"/>
+                </Block>
+                <Block location="ioss[0].port[1].pin[1]">
+                    <Alias value="CYBSP_PWMWL"/>
+                </Block>
+                <Block location="ioss[0].port[1].pin[2]">
+                    <Alias value="CYBSP_GD_AZ"/>
+                </Block>
+                <Block location="ioss[0].port[1].pin[3]">
+                    <Alias value="CYBSP_GD_NBRAKE"/>
+                </Block>
+                <Block location="ioss[0].port[2].pin[0]">
+                    <Alias value="CYBSP_AIN_BEMF_W"/>
+                </Block>
+                <Block location="ioss[0].port[2].pin[10]">
+                    <Alias value="CYBSP_AIN_IV"/>
+                </Block>
+                <Block location="ioss[0].port[2].pin[13]">
+                    <Alias value="CYBSP_GD_WD_CLK"/>
+                </Block>
+                <Block location="ioss[0].port[2].pin[1]">
+                    <Alias value="CYBSP_AIN_BEMF_V"/>
+                </Block>
+                <Block location="ioss[0].port[2].pin[2]">
+                    <Alias value="CYBSP_AIN_BEMF_U"/>
+                </Block>
+                <Block location="ioss[0].port[2].pin[3]">
+                    <Alias value="CYBSP_AIN_Vbus"/>
+                </Block>
+                <Block location="ioss[0].port[2].pin[4]">
+                    <Alias value="CYBSP_AIN_TempSense"/>
+                </Block>
+                <Block location="ioss[0].port[2].pin[5]">
+                    <Alias value="CYBSP_AIN_Pot"/>
+                </Block>
+                <Block location="ioss[0].port[2].pin[6]">
+                    <Alias value="CYBSP_AIN_KIT_ID"/>
+                </Block>
+                <Block location="ioss[0].port[3].pin[0]">
+                    <Alias value="CYBSP_PWMVL"/>
+                </Block>
+                <Block location="ioss[0].port[3].pin[1]">
+                    <Alias value="CYBSP_PWMVH"/>
+                </Block>
+                <Block location="ioss[0].port[3].pin[2]">
+                    <Alias value="CYBSP_PWMUL"/>
+                </Block>
+                <Block location="ioss[0].port[3].pin[3]">
+                    <Alias value="CYBSP_PWMUH"/>
+                </Block>
+                <Block location="ioss[0].port[3].pin[4]">
+                    <Alias value="CYBSP_TRAP"/>
+                    <Personality template="xmc_pin" version="1.0">
+                        <Param id="io_function" value="XMC_GPIO_INPUT"/>
+                        <Param id="input_mode" value="XMC_GPIO_MODE_INPUT_PULL_UP"/>
+                        <Param id="input_hysteresis" value="XMC_GPIO_INPUT_HYSTERESIS_STANDARD"/>
+                        <Param id="output_mode" value="XMC_GPIO_MODE_OUTPUT_PUSH_PULL"/>
+                        <Param id="output_level" value="XMC_GPIO_OUTPUT_LEVEL_LOW"/>
+                        <Param id="output_strength" value="XMC_GPIO_OUTPUT_STRENGTH_NONE"/>
+                        <Param id="inFlash" value="true"/>
+                    </Personality>
+                </Block>
+                <Block location="ioss[0].port[4].pin[10]">
+                    <Alias value="CYBSP_DIR_INPUT"/>
+                    <Personality template="xmc_pin" version="1.0">
+                        <Param id="io_function" value="XMC_GPIO_INPUT"/>
+                        <Param id="input_mode" value="XMC_GPIO_MODE_INPUT_PULL_UP"/>
+                        <Param id="input_hysteresis" value="XMC_GPIO_INPUT_HYSTERESIS_STANDARD"/>
+                        <Param id="output_mode" value="XMC_GPIO_MODE_OUTPUT_PUSH_PULL"/>
+                        <Param id="output_level" value="XMC_GPIO_OUTPUT_LEVEL_LOW"/>
+                        <Param id="output_strength" value="XMC_GPIO_OUTPUT_STRENGTH_NONE"/>
+                        <Param id="inFlash" value="true"/>
+                    </Personality>
+                </Block>
+                <Block location="ioss[0].port[4].pin[1]">
+                    <Alias value="CYBSP_HALL0"/>
+                    <Personality template="xmc_pin" version="1.0">
+                        <Param id="io_function" value="XMC_GPIO_INPUT"/>
+                        <Param id="input_mode" value="XMC_GPIO_MODE_INPUT_PULL_UP"/>
+                        <Param id="input_hysteresis" value="XMC_GPIO_INPUT_HYSTERESIS_STANDARD"/>
+                        <Param id="output_mode" value="XMC_GPIO_MODE_OUTPUT_PUSH_PULL"/>
+                        <Param id="output_level" value="XMC_GPIO_OUTPUT_LEVEL_LOW"/>
+                        <Param id="output_strength" value="XMC_GPIO_OUTPUT_STRENGTH_NONE"/>
+                        <Param id="inFlash" value="true"/>
+                    </Personality>
+                </Block>
+                <Block location="ioss[0].port[4].pin[2]">
+                    <Alias value="CYBSP_HALL1"/>
+                    <Personality template="xmc_pin" version="1.0">
+                        <Param id="io_function" value="XMC_GPIO_INPUT"/>
+                        <Param id="input_mode" value="XMC_GPIO_MODE_INPUT_PULL_UP"/>
+                        <Param id="input_hysteresis" value="XMC_GPIO_INPUT_HYSTERESIS_STANDARD"/>
+                        <Param id="output_mode" value="XMC_GPIO_MODE_OUTPUT_PUSH_PULL"/>
+                        <Param id="output_level" value="XMC_GPIO_OUTPUT_LEVEL_LOW"/>
+                        <Param id="output_strength" value="XMC_GPIO_OUTPUT_STRENGTH_NONE"/>
+                        <Param id="inFlash" value="true"/>
+                    </Personality>
+                </Block>
+                <Block location="ioss[0].port[4].pin[3]">
+                    <Alias value="CYBSP_HALL2"/>
+                    <Personality template="xmc_pin" version="1.0">
+                        <Param id="io_function" value="XMC_GPIO_INPUT"/>
+                        <Param id="input_mode" value="XMC_GPIO_MODE_INPUT_PULL_UP"/>
+                        <Param id="input_hysteresis" value="XMC_GPIO_INPUT_HYSTERESIS_STANDARD"/>
+                        <Param id="output_mode" value="XMC_GPIO_MODE_OUTPUT_PUSH_PULL"/>
+                        <Param id="output_level" value="XMC_GPIO_OUTPUT_LEVEL_LOW"/>
+                        <Param id="output_strength" value="XMC_GPIO_OUTPUT_STRENGTH_NONE"/>
+                        <Param id="inFlash" value="true"/>
+                    </Personality>
+                </Block>
+                <Block location="ioss[0].port[4].pin[4]">
+                    <Alias value="CYBSP_DEBUG_UART_RX"/>
+                </Block>
+                <Block location="ioss[0].port[4].pin[5]">
+                    <Alias value="CYBSP_DEBUG_UART_TX"/>
+                </Block>
+                <Block location="ioss[0].port[4].pin[7]">
+                    <Alias value="CYBSP_LED_FG"/>
+                    <Alias value="CYBSP_USER_LED2"/>
+                    <Personality template="xmc_pin" version="1.0">
+                        <Param id="io_function" value="XMC_GPIO_INPUT_OUTPUT"/>
+                        <Param id="input_mode" value="XMC_GPIO_MODE_INPUT_TRISTATE"/>
+                        <Param id="input_hysteresis" value="XMC_GPIO_INPUT_HYSTERESIS_STANDARD"/>
+                        <Param id="output_mode" value="XMC_GPIO_MODE_OUTPUT_OPEN_DRAIN"/>
+                        <Param id="output_level" value="XMC_GPIO_OUTPUT_LEVEL_HIGH"/>
+                        <Param id="output_strength" value="XMC_GPIO_OUTPUT_STRENGTH_NONE"/>
+                        <Param id="inFlash" value="true"/>
+                    </Personality>
+                </Block>
+                <Block location="ioss[0].port[4].pin[8]">
+                    <Alias value="CYBSP_USER_LED"/>
+                    <Alias value="CYBSP_USER_LED1"/>
+                    <Alias value="CYBSP_LED_STATUS"/>
+                    <Personality template="xmc_pin" version="1.0">
+                        <Param id="io_function" value="XMC_GPIO_INPUT_OUTPUT"/>
+                        <Param id="input_mode" value="XMC_GPIO_MODE_INPUT_TRISTATE"/>
+                        <Param id="input_hysteresis" value="XMC_GPIO_INPUT_HYSTERESIS_STANDARD"/>
+                        <Param id="output_mode" value="XMC_GPIO_MODE_OUTPUT_OPEN_DRAIN"/>
+                        <Param id="output_level" value="XMC_GPIO_OUTPUT_LEVEL_HIGH"/>
+                        <Param id="output_strength" value="XMC_GPIO_OUTPUT_STRENGTH_NONE"/>
+                        <Param id="inFlash" value="true"/>
+                    </Personality>
+                </Block>
+                <Block location="scu[0].clock[0]">
+                    <Personality template="xmc1_clocks" version="1.0"/>
+                </Block>
+                <Block location="scu[0].clock[0].ccuclk[0]">
+                    <Personality template="xmc1_pclk" version="1.0">
+                        <Param id="pclk_src" value="XMC_SCU_CLOCK_PCLKSRC_DOUBLE_MCLK"/>
+                    </Personality>
+                </Block>
+                <Block location="scu[0].clock[0].dco1[0]">
+                    <Personality template="xmc1_dco1" version="1.0">
+                        <Param id="accuracy" value="4"/>
+                        <Param id="calibration_enable" value="false"/>
+                    </Personality>
+                </Block>
+                <Block location="scu[0].clock[0].dco2[0]">
+                    <Personality template="xmc1_dco2" version="1.0">
+                        <Param id="accuracy" value="4"/>
+                    </Personality>
+                </Block>
+                <Block location="scu[0].clock[0].fdivclk[0]">
+                    <Personality template="xmc1_fdivclk" version="1.0">
+                        <Param id="dclk_src" value="XMC_SCU_CLOCK_DCLKSRC_DCO1"/>
+                        <Param id="configuration" value="auto"/>
+                        <Param id="fdiv_frequency" value="96.000"/>
+                    </Personality>
+                </Block>
+                <Block location="scu[0].clock[0].periclk[0]">
+                    <Personality template="xmc1_mclk" version="1.0"/>
+                </Block>
+                <Block location="scu[0].clock[0].rtcclk[0]">
+                    <Personality template="xmc1_rtcclk" version="1.0">
+                        <Param id="rtc_src" value="XMC_SCU_CLOCK_RTCCLKSRC_DCO2"/>
+                    </Personality>
+                </Block>
+            </BlockConfig>
+            <Netlist/>
+        </Device>
+    </Devices>
+    <ConfiguratorData/>
+</Configuration>
