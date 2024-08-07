@@ -1,6 +1,6 @@
 {
     "core": {
-        "version": "0.5.0.32316"
+        "version": "0.5.1.42408"
     },
     "opt": {
         "props": {
@@ -10,13 +10,16 @@
                 "can",
                 "cat3",
                 "ccu4",
+                "ccu8",
                 "comp",
                 "eval_6edl7141_foc_3sh",
                 "flash_200k",
                 "i2c",
                 "i2s",
                 "led",
+                "low_power",
                 "mcu_gp",
+                "posif",
                 "rtc",
                 "spi",
                 "sram_16k",
@@ -35,7 +38,7 @@
             "min_tools": "3.0.0",
             "template": {
                 "id": "mtb-template-cat3",
-                "version": "release-v1.0.0"
+                "version": "release-v1.2.1"
             }
         }
     }

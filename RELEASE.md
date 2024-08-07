@@ -17,6 +17,11 @@ The EVAL_6EDL7141_FOC_3SH library includes the following:
 * API documentation
 
 ### What Changed?
+#### v2.2.1
+* Added memory-analyzer configuration support for KIT_XMC11_BOOT_001, KIT_XMC12_BOOT_001, KIT_XMC13_BOOT_001, KIT_XMC14_BOOT_001, KIT_XMC45_RELAX_V1, KIT_XMC_PLT2GO_XMC4200, and KIT_XMC_PLT2GO_XMC4400.
+#### v2.2.0
+* Added functionality to enable BSP Assistant chip flow
+* Added capabilities to match BSPS created by BSP Assistant chip flow
 #### v2.1.0
 * Add macro `CYBSP_USER_BTN_DRIVE` indicating the drive mode that should be used for user buttons
 #### v2.0.0
@@ -35,8 +40,8 @@ This version of the EVAL_6EDL7141_FOC_3SH BSP was validated for compatibility wi
 
 | Software and Tools                        | Version |
 | :---                                      | :----:  |
-| ModusToolbox™ Software Environment        | 3.0.0   |
-| GCC Compiler                              | 10.3.1  |
+| ModusToolbox™ Software Environment        | 3.1.0   |
+| GCC Compiler                              | 11.3.1  |
 
 Minimum required ModusToolbox™ Software Environment: v3.0.0
 
